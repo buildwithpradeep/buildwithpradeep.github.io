@@ -23,10 +23,11 @@ function Main() {
           <p className="role">
             <TypeAnimation
               sequence={[
-                'Product Manager', 2000,
-                'AI Enthusiast', 2000,
-                'GTM Engineer', 2000,
-                'Data Scientist', 2000
+                'AI-driven Product Builder', 2000,
+                'Delivering AI-Enabled Solutions', 2000,
+                '6+ years exp delivering seamless user experiences in B2B SaaS', 2000,
+                'Past @VMock, @GlobalUniversity Systems, @Wizikey', 2000,
+                'Scroll to read more', 2000,
               ]}
               wrapper="span"
               cursor={true}
