@@ -10,7 +10,7 @@ function Footer() {
         {/* <a href="#" target="_blank" rel="noreferrer"><GitHubIcon/></a> */}
         <a href="https://www.linkedin.com/in/pradeep-k-sah/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
-      <p>Built by Pradeep Kumar on a sunny day in Jericho Beach, Kitsilano with 💜</p>
+      <p>Built by Pradeep Kumar on a sunny day at Jericho Beach, Kitsilano with 💜</p>
     </footer>
   );
 }
