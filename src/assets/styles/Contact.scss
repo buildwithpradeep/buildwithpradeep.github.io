@@ -1,0 +1,230 @@
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+
+  fieldset {
+    background-color: white;
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .form-field {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+/* Make MUI TextField input text visible on the white fieldset/background
+   (the site uses a dark page background, so MUI's generated classes can
+   inherit dark-theme colors elsewhere). These rules scope to the
+   .contact-form to avoid affecting other areas. */
+.contact-form {
+  /* force visible typed text and prevent WebKit/autofill hiding */
+  .MuiInputBase-input,
+  input,
+  textarea {
+    color: #050f0b !important;              /* visible dark text */
+    -webkit-text-fill-color: #050f0b !important; /* override WebKit/autofill */
+    opacity: 1 !important;
+  }
+
+  .MuiOutlinedInput-root {
+    background-color: #ffffff !important; /* ensure input background is white */
+  }
+
+  .MuiFormLabel-root {
+    color: rgba(5, 15, 11, 0.75) !important; /* label color */
+  }
+
+  /* placeholder color (replace any neon/green conflicting rule) */
+  input::placeholder,
+  textarea::placeholder {
+    color: rgba(5, 15, 11, 0.5) !important;
+  }
+}
+
+/* Simplified native input styles to avoid MUI conflicts */
+.contact-form {
+  .form-field {
+    width: 100%;
+  }
+
+  .contact-input,
+  .contact-textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff !important;
+    color: #050f0b !important;
+    -webkit-text-fill-color: #050f0b !important; /* beats any webkit override */
+    caret-color: #050f0b;
+    border: 1px solid #c9c9c9;
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.4;
+    outline: none;
+    appearance: none;
+    background-clip: border-box !important;
+    -webkit-background-clip: border-box !important;
+    text-shadow: none !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+  }
+
+  .contact-input::placeholder,
+  .contact-textarea::placeholder {
+    color: rgba(5, 15, 11, 0.5) !important;
+    opacity: 1 !important;
+  }
+
+  .contact-input:focus,
+  .contact-textarea:focus {
+    border-color: #5000ca;
+    box-shadow: 0 0 0 3px rgba(80, 0, 202, 0.15);
+  }
+
+  /* Autofill fixes (Chrome) */
+  input:-webkit-autofill,
+  textarea:-webkit-autofill {
+    -webkit-text-fill-color: #050f0b !important;
+    transition: background-color 99999s ease-in-out 0s;
+  }
+}
+
+/* Keep existing layout */
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1.05rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+  color: rgba(5, 15, 11, 0.9);
+}
+
+.error {
+  display: block;
+  margin-top: 6px;
+  color: #c62828;
+  font-size: 0.85rem;
+}
+
+/* Optional: you can remove the old MUI-specific overrides below if present
+   to avoid confusion:
+   - .contact-form .MuiInputBase-input { ... }
+   - .contact-form .MuiOutlinedInput-root { ... }
+   - .contact-form .MuiFormLabel-root { ... }
+*/
+
+/* Dark mode label + input adjustments */
+.dark-mode .contact-form label,
+.dark .contact-form label {
+  color: #ffffff !important;
+}
+
+.dark-mode .contact-form .contact-input,
+.dark .contact-form .contact-input,
+.dark-mode .contact-form .contact-textarea,
+.dark .contact-form .contact-textarea {
+  background: #1e1e1e !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  border: 1px solid #444;
+}
+
+.dark-mode .contact-form .contact-input::placeholder,
+.dark .contact-form .contact-input::placeholder,
+.dark-mode .contact-form .contact-textarea::placeholder,
+.dark .contact-form .contact-textarea::placeholder {
+  color: rgba(255,255,255,0.6) !important;
+}
+
+.dark-mode .contact-form .contact-input:focus,
+.dark .contact-form .contact-input:focus,
+.dark-mode .contact-form .contact-textarea:focus,
+.dark .contact-form .contact-textarea:focus {
+  border-color: #a575ff;
+  box-shadow: 0 0 0 3px rgba(165,117,255,0.25);
+}
+
+.contact_socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.contact_socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border: 1px solid #c9c9c9;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #050f0b;
+  background: #ffffff;
+  font-size: 0.95rem;
+  transition: all .2s;
+}
+
+.contact_socials a:hover {
+  border-color: #5000ca;
+  box-shadow: 0 0 0 3px rgba(80,0,202,0.15);
+  transform: translateY(-2px);
+}
+
+.contact_socials svg {
+  font-size: 1.25rem;
+}
+
+.dark-mode .contact_socials a,
+.dark .contact_socials a {
+  background: #1e1e1e;
+  color: #ffffff;
+  border-color: #444;
+}
+
+.dark-mode .contact_socials a:hover,
+.dark .contact_socials a:hover {
+  border-color: #a575ff;
+  box-shadow: 0 0 0 3px rgba(165,117,255,0.25);
+}
