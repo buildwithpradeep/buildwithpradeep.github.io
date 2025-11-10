@@ -16,7 +16,7 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
-          <p>Connect with me via social or email.</p>
+          
 
           <div className="contact_socials" aria-label="Social links">
             <a href={SOCIALS.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
