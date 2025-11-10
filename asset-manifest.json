@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b5a3650.css",
+    "main.js": "/static/js/main.628a6568.js",
+    "static/js/453.426f2c90.chunk.js": "/static/js/453.426f2c90.chunk.js",
+    "static/media/bg-light.png": "/static/media/bg-light.08ca0f44d48c091bf34e.png",
+    "static/media/bg-dark.png": "/static/media/bg-dark.4b1faff40666f5870144.png",
+    "static/media/gus1.png": "/static/media/gus1.b5079922ce6827d2d3c0.png",
+    "static/media/psm1.png": "/static/media/psm1.04d1f0d0aea1d5075cfd.png",
+    "static/media/vmock5.png": "/static/media/vmock5.39645f907c424a80c797.png",
+    "static/media/wizikey1.png": "/static/media/wizikey1.68c0952d98b5da5c43ff.png",
+    "static/media/profilepicture.png": "/static/media/profilepicture.26a958654c5ce6544da9.png",
+    "static/media/pcg1.png": "/static/media/pcg1.a95e32c032a2cab901f2.png",
+    "static/media/powerbi.png": "/static/media/powerbi.b6b17511b28e69263f93.png",
+    "static/media/uwbc1.png": "/static/media/uwbc1.d5cb463785d0fd2a50f2.png",
+    "static/media/pmp.png": "/static/media/pmp.bbc4f2afc16798a23aa8.png",
+    "static/media/vmock4.png": "/static/media/vmock4.db167cd819a6cf4891bf.png",
+    "static/media/prautomation1.png": "/static/media/prautomation1.da88bc4d769a3df940d6.png",
+    "static/media/yvrhackathon1.png": "/static/media/yvrhackathon1.227aa743a48d69e6455d.png",
+    "static/media/aws.png": "/static/media/aws.be075bbead86825f3316.png",
+    "static/media/iecbc1.png": "/static/media/iecbc1.a8d4cb744e9725038dff.png",
+    "static/media/awsbadge.png": "/static/media/awsbadge.a5d98c4b0be131df2966.png",
+    "static/media/pmpbadge.png": "/static/media/pmpbadge.887b3790120eb81bff2d.png",
+    "static/media/vmock.png": "/static/media/vmock.3081bdf202c3435fd895.png",
+    "static/media/psm1badge.png": "/static/media/psm1badge.add99194fc2d53a388ee.png",
+    "static/media/gus.png": "/static/media/gus.fd2b397cb608d878e133.png",
+    "static/media/libertech.png": "/static/media/libertech.17c1594051a724f4cd60.png",
+    "static/media/powerbibadge.png": "/static/media/powerbibadge.d61b8a422f55a29ba8b4.png",
+    "static/media/pcgalore.png": "/static/media/pcgalore.86a1dc4f3ca4b586a332.png",
+    "static/media/wizikey.png": "/static/media/wizikey.147435142eee1d545e90.png",
+    "index.html": "/index.html",
+    "main.7b5a3650.css.map": "/static/css/main.7b5a3650.css.map",
+    "main.628a6568.js.map": "/static/js/main.628a6568.js.map",
+    "453.426f2c90.chunk.js.map": "/static/js/453.426f2c90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b5a3650.css",
+    "static/js/main.628a6568.js"
+  ]
+}
