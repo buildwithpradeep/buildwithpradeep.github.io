@@ -23,8 +23,8 @@ function Main() {
           <p className="role">
             <TypeAnimation
               sequence={[
-                'AI-driven Product Builder', 2000,
-                'Delivering AI-Enabled Solutions', 2000,
+                'Technical Product Builder', 2000,
+                'Skilled in leveraging NLP, CV and RAG Solutions', 2000,
                 '6+ years exp delivering seamless user experiences in B2B SaaS', 2000,
                 'Past @VMock, @GlobalUniversity Systems, @Wizikey', 2000,
                 'Scroll to read more', 2000,
