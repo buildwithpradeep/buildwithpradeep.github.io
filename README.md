@@ -6,9 +6,6 @@
 
 This repository contains a personal portfolio site built with React + TypeScript and styled with SCSS. The app showcases projects, a timeline, skills, and a contact form. It was adapted from a public template and customized with personal content.
 
-## Screenshot  
-
-![screenshot](./src/assets/images/screenshot.png)
 
 ## Features
 
